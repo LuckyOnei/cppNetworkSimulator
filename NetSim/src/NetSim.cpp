@@ -1,20 +1,22 @@
-// NetSim.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+/*
+* How to read:
+* 
+* In this project I'm gonna use namespaces as references to netwroks abstraction layers.
+* Example:
+* NAL::Packet means that packets are defined on Network Acess Layer (NAL)
+* 
+* List (from lower to higher levels of abstraction):
+* 0) Network Acess Layer: Ethernet, IEEE 802.11 WLAN, SLIP, Token Ring, ATM and MPLS
+* 1) Internet Layer: IP
+* 2) Transport Layer: TCP, UDP, SCTP, DCCP
+* 3) Application Layer: HTTP, RTSP, FTP, DNS
+* 
+* 
+*/
 
 #include <iostream>
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    std::cout << sizeof(char) << std::endl;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
