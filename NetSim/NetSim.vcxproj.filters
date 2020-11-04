@@ -18,12 +18,12 @@
     <ClCompile Include="src\NetSim.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\Physical Layer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Computer.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Packet.h">
+    <ClInclude Include="src\Physical Layer.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

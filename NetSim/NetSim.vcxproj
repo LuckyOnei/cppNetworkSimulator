@@ -20,10 +20,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\NetSim.cpp" />
+    <ClCompile Include="src\Physical Layer.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Computer.h" />
-    <ClInclude Include="src\Packet.h" />
+    <ClInclude Include="src\Physical Layer.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
